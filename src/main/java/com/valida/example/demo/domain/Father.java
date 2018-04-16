@@ -5,8 +5,8 @@
 package com.valida.example.demo.domain;
 
 import lombok.Data;
+import org.hibernate.validator.constraints.NotEmpty;
 
-import javax.validation.constraints.NotEmpty;
 
 @Data
 public class Father {
